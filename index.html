@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="joke-box">
+        <div class="input">
+          <input
+            list="categoryList"
+            type="text"
+            placeholder="Categories..."
+            name="categoryInput"
+            id="categoryInput"
+          />
+          <datalist id="categoryList">
+            <option value="General">General</option>
+            <option value="Programming">Programming</option>
+            <option value="Knock-Knock">Knock-Knock</option>
+            <option value="Food">Food</option>
+            <option value="Pun">Pun</option>
+            <option value="Tech">Tech</option>
+            <option value="Animal">Animal</option>
+          </datalist>
+        </div>
+        <p id="jokeText"></p>
+      </div>
+      <button id="getJokeButton">Tell me a Joke</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
